@@ -1,0 +1,26 @@
+header {
+    position: fixed;
+    background: white;
+    top: 0 !important;
+    margin-bottom: 100px;
+    width: calc(100% - var(--fullPad));
+    padding: var(--halfPad) calc(var(--fullPad) * .5);
+    z-index: 200000;
+}
+
+.top_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*display: none;*/
+}
+
+.top_menu div ul {
+    display: flex;
+    align-items: center;
+}
+
+.top_menu div ul * {
+    font-weight: bold;
+    cursor: pointer;
+}

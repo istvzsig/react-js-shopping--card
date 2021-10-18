@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    user-select: none;
+    list-style: none;
+    text-decoration: none;
+    color: #222;
+    outline: 0;
+    border: 0;
+    /*border: 2px solid blueviolet;*/
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+ 
+
+img { vertical-align: middle; }
+
+h1,h2,h3 { margin: var(--halfPad) 0; }
+
+h1 { font-size: 1.5rem; }
+
+hr {
+    width: 100%;
+    height: 2px;
+    background: blueviolet;
+    margin: auto;
+    margin-bottom: var(--fullPad);
+    opacity: .2;
+}
+

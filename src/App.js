@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Featured from './components/Featured';
 import Main from './components/Main';
 import Cart from './components/Cart';
-import data from './products'
+import data from './products';
 
 function App() {
     const { products } = data;
