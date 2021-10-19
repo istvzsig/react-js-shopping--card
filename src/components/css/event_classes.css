@@ -5,3 +5,15 @@
 .hide {
     transform: translate3d(100%,0,0);
 }
+
+@keyframes fluffy {
+    0%  { transform: translate3d(0,0,0); }
+
+    28%  { transform: translate3d(0,-3px,0); }
+
+    52%  { transform: translate3d(0,0,0); }
+
+    66%  { transform: translate3d(0,3px,0); }
+
+    100%  { transform: translate3d(0,0,0);  }
+}

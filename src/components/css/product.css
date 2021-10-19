@@ -1,5 +1,10 @@
 .product_collection {
     display: inline-flex;
+    overflow-x: scroll;
+    width: 400%;
+    /*position: fixed;*/
+    /*top: 100vh;*/
+    padding-top: 60px;
 }
 
 .products_list {
@@ -17,6 +22,15 @@
     /*border: 1px solid var(--borderColor);*/
     /*width: calc(100vw/6);*/
     padding-bottom: 0;
+}
+
+.product_card:nth-child(1) {
+    margin-left: 1rem;
+}
+
+.product_desicount_price {
+    position: absolute;
+    color: white;
 }
 
 .product_category {
@@ -40,8 +54,8 @@
 }
 
 .products_tile_big {
-    /*position: sticky;
-    top: 0;*/
+    position: relative;
+    top: 60px;
 }
 
 .product_price {

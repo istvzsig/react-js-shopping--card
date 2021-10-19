@@ -5,19 +5,53 @@ import Main from './components/Main';
 import Cart from './components/Cart';
 import data from './products';
 
+// scroll window
+function windowYScroll() {
+  window.addEventListener(('wheel' || 'scroll'), e => {
+    e.deltaY < 0 ? 
+      console.log('down')
+    : console.log('up')
+  })
+}
+
+
+function positioning() {
+    const featuredDiv = document.getElementsByClassName('featured')[0];
+    let topNavHeight = document.getElementsByClassName('top_menu')[0];
+    topNavHeight = topNavHeight.getBoundingClientRect().height;
+
+    return featuredDiv.style.top = `${topNavHeight}px`;
+}
+
+function animateCounterIcon() {
+  const counter = document.getElementsByClassName('item_counter')[0];
+
+  counter.style.animationName = 'fluffy';
+
+  counter.addEventListener('animationend', e => {
+    counter.style.animationName = '';
+  })
+  
+}
+
+
 function App() {
     const { products } = data;
     const [cartItems, setCartItems] = useState([]);
     
+    
+
     const _onOpen = elem => {
-        console.log('asdasdsd')
+        // later
     }
 
     /***** REFACTOR THIS INTO AN OWN MODULE *****/
 
-
     // add item to cart
     const onAdd = product => {
+
+      animateCounterIcon();
+
       const exist = cartItems.find(x => x.id === product.id);
           if (exist) {
             setCartItems(
@@ -46,7 +80,8 @@ function App() {
     };
 
     /***** REFACTOR ENDS HERE *****/
-
+    // windowYScroll();
+    // positioning();
     return (
 
         <div className="App">

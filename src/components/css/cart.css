@@ -127,7 +127,7 @@
 }
 
 .cart_navigation * {
-    margin: 0 !important;
+    /*margin: 0 !important;*/
     padding-left: 0;
 }
 
@@ -141,10 +141,20 @@
 }
 
 .item_counter{
+
+    /*reassign root variable*/
+    --fullPad: calc(-1rem + calc(1rem/2));
+
     text-align: center;
     background: blueviolet;
     color: white;
     padding: calc(var(--halfPad)/2) var(--halfPad);
     border-radius: 5px;
     font-weight: normal;
+    margin-left: var(--fullPad);
+    animation: 400ms forwards ease;
+}
+
+.cart_button {
+    margin-right: 1rem;
 }

@@ -11,7 +11,9 @@ export default function Header(props) {
     return (
         <header className="top_menu">
 
-            <h1>small shop</h1>
+            <h1 className="logo">small shop</h1>
+
+            <li className='products_button'>Products</li>
 
             <div>
                 <ul onClick={toggleCart} className="cart_navigation">

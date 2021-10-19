@@ -2,25 +2,40 @@ header {
     position: fixed;
     background: white;
     top: 0 !important;
-    margin-bottom: 100px;
-    width: calc(100% - var(--fullPad));
-    padding: var(--halfPad) calc(var(--fullPad) * .5);
     z-index: 200000;
+    width: 100%;
 }
 
 .top_menu {
     display: flex;
+    /*width: 100%;*/
     align-items: center;
     justify-content: space-between;
-    /*display: none;*/
+    display: grid;
+    grid: auto / auto 1fr auto;
+    font-weight: bold;
+    height: 60px;
+    /*padding: calc(var(--halfPad) / 2) 0;*/
+
+}
+
+.top_menu .logo {
+    margin-left: var(--fullPad);
 }
 
 .top_menu div ul {
     display: flex;
     align-items: center;
+    margin-right: var(--fullPad);
 }
 
 .top_menu div ul * {
     font-weight: bold;
+    cursor: pointer;
+}
+
+.top_menu .products_button {
+    justify-self: flex-end;
+    margin-right: calc(var(--fullPad) * 2);
     cursor: pointer;
 }
