@@ -6,6 +6,10 @@
     transform: translate3d(100%,0,0);
 }
 
+.show {
+    animation: 'show' 300ms forwards;
+}
+
 @keyframes fluffy {
     0%  { transform: translate3d(0,0,0); }
 
@@ -16,4 +20,10 @@
     66%  { transform: translate3d(0,3px,0); }
 
     100%  { transform: translate3d(0,0,0);  }
+}
+
+@keyframes show {
+    0%  { transform: translate3d(0,0,0); }
+
+    100%  { transform: translate3d(0,-100vh,0); }
 }

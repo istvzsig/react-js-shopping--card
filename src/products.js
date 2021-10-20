@@ -9,7 +9,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -22,7 +22,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -35,7 +35,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -48,7 +48,7 @@ const data = {
             featured: true,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -61,7 +61,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -74,7 +74,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -87,7 +87,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -100,7 +100,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -113,7 +113,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -121,12 +121,12 @@ const data = {
             id: 10,
             name: "Shape Imageiner Pilot Licence",
             category: "skill",
-            price: 11200.00,
+            price: 11000.00,
             bestseller: false,
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -139,7 +139,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -152,7 +152,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -165,7 +165,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -178,7 +178,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -191,7 +191,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -204,7 +204,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -217,7 +217,7 @@ const data = {
             featured: true,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -230,7 +230,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -243,7 +243,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         },
@@ -256,7 +256,7 @@ const data = {
             featured: false,
             details: "",
             image: {
-                src: "https://stevensegallery.com/1920/1200",
+                src: "https://stevensegallery.com/1920/1000",
                 alt: "No image."
             }
         }

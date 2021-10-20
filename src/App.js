@@ -3,37 +3,8 @@ import Header from './components/Header';
 import Featured from './components/Featured';
 import Main from './components/Main';
 import Cart from './components/Cart';
+import { animateCounterIcon } from './components/functions';
 import data from './products';
-
-// scroll window
-function windowYScroll() {
-  window.addEventListener(('wheel' || 'scroll'), e => {
-    e.deltaY < 0 ? 
-      console.log('down')
-    : console.log('up')
-  })
-}
-
-
-function positioning() {
-    const featuredDiv = document.getElementsByClassName('featured')[0];
-    let topNavHeight = document.getElementsByClassName('top_menu')[0];
-    topNavHeight = topNavHeight.getBoundingClientRect().height;
-
-    return featuredDiv.style.top = `${topNavHeight}px`;
-}
-
-function animateCounterIcon() {
-  const counter = document.getElementsByClassName('item_counter')[0];
-
-  counter.style.animationName = 'fluffy';
-
-  counter.addEventListener('animationend', e => {
-    counter.style.animationName = '';
-  })
-  
-}
-
 
 function App() {
     const { products } = data;
@@ -41,11 +12,7 @@ function App() {
     
     
 
-    const _onOpen = elem => {
-        // later
-    }
-
-    /***** REFACTOR THIS INTO AN OWN MODULE *****/
+    const _onOpen = elem => {}
 
     // add item to cart
     const onAdd = product => {
@@ -79,9 +46,6 @@ function App() {
           }
     };
 
-    /***** REFACTOR ENDS HERE *****/
-    // windowYScroll();
-    // positioning();
     return (
 
         <div className="App">

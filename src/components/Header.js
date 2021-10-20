@@ -1,7 +1,5 @@
 import React from 'react';
-import { toggleCart } from './functions';
-
-
+import { toggleCart, positioning } from './functions';
 
 // props are coming from the parent component
 export default function Header(props) {
@@ -13,7 +11,7 @@ export default function Header(props) {
 
             <h1 className="logo">small shop</h1>
 
-            <li className='products_button'>Products</li>
+            <li onClick={positioning} className='products_button'>Products</li>
 
             <div>
                 <ul onClick={toggleCart} className="cart_navigation">

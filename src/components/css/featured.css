@@ -1,6 +1,6 @@
 .featured {
-    position: relative;
-    justify-content: center;
+    position: fixed;
+    /*justify-content: center;*/
     max-width: 100%;
     top: 60px;
     left: 0;
@@ -10,14 +10,15 @@
     overflow: hidden;
 }
 
-*:before,
-*:after {
+.featured *:before,
+.feature *:after {
     font-weight: bold;
 }
 
 .featured .featured_product {
     position: relative;
     max-width: 100%;
+    display: flex;
 }
 
 /*overlay*/
@@ -38,11 +39,13 @@
 
 .featured .featured_product h3 {
     position: absolute;
-    bottom: var(--fullPad);
+    top: var(--fullPad);
     color: white;
-    font-size: 8vh;
+    font-size: 12vh;
     z-index: 1;
-    margin-left: calc(var(--fullPad) * 2);
+    line-height: 1;
+    margin-left: calc(var(--fullPad) * 1);
+    padding: var(--fullPad);
     /*position: absolute;
     top: 0;
     text-align: left;

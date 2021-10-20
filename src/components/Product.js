@@ -4,7 +4,7 @@ import { hoverCard } from './functions';
 export default function Product(props) {
     const {product, onAdd, onRemove} = props;
     // const featured = product.featured;
-    const randomImageSizes = [1200, 700, 1080, 960, 666, 1920];
+    // const randomImageSizes = [1200, 700, 1080, 960, 666, 1920];
     
     // just generate random image for products
     // this must be replaced with the proper image sizes of custom products

@@ -1,5 +1,3 @@
-'use strict';
-
 export default function Featured(props) {
     const { products } = props;
 

@@ -1,7 +1,7 @@
 .product_collection {
     display: inline-flex;
-    overflow-x: scroll;
-    width: 400%;
+    overflow-x: hidden;
+    /*width: 400%;*/
     /*position: fixed;*/
     /*top: 100vh;*/
     padding-top: 60px;
