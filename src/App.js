@@ -3,16 +3,15 @@ import Header from './components/Header';
 import Featured from './components/Featured';
 import Main from './components/Main';
 import Cart from './components/Cart';
-import { animateCounterIcon } from './components/functions';
+import { animateCounterIcon, checkScrollFromTop } from './components/functions';
 import data from './products';
 
 function App() {
-    const { products } = data;
-    const [cartItems, setCartItems] = useState([]);
-    
-    
 
-    const _onOpen = elem => {}
+    const { products } = data;
+    const [cartItems, setCartItems] = useState([]);   
+    checkScrollFromTop()
+    const _onOpen = elem => {};
 
     // add item to cart
     const onAdd = product => {
@@ -47,15 +46,14 @@ function App() {
     };
 
     return (
-
+                
         <div className="App">
             <Header cartItems={cartItems}/>
             <Featured products={products}/>
             <Main onAdd={onAdd} products={products}/>
             <Cart onClick={e => _onOpen(document.getElementsByClassName('cart_button')[0]) } onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}/>
         </div>
-
-
+        
     )
 }
 

@@ -6,6 +6,9 @@
 @import './components/css/event_classes.css';
 
 :root {
+    --dark: #222;
+    --light: #fff;
+    --borderLight: .5px solid var(--dark);
     --halfPad: .5rem;
     --fullPad: 1rem;
     --button: blueviolet;
@@ -15,4 +18,5 @@
     --gradient_B: #A0ffBF;
     --background_gradient_1: rgb(160,255,191);
     --background_gradient_1a: linear-gradient(45deg, rgba(160,255,191,1) 0%, rgba(14,146,151,1) 100%);
+    --shadow: rgba(0,0,0,.33)
 }

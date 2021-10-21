@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    background: rgba(255,255,255,1);
+    background: var(--dark);
     box-shadow: 10px 0 20px rgba(0,0,0,.25);
     height: calc(100% - (var(--fullPad) * 2));
     /*width: 100%;*/
@@ -12,32 +12,19 @@
     transition: var(--trance);
     z-index: 1000000000000000;
     transform: translate3d(0, 0, 0);
+    min-width: 300px;
 }
 
 
 .your_cart * {
     margin-left: 5px;
+    color: var(--light) !important;
 }
 
 .your_cart .close_button {
     text-align: left;
     padding: .5rem;
     cursor: pointer;
-}
-
-.add_to_cart_button {
-    /*margin-bottom: var(--fullPad);*/
-    background: none;
-    width: 100%;
-    padding: var(--fullPad);
-    background: blueviolet;
-    font-weight: bold;
-    font-size: 14px;
-    color: white;
-    border-radius: 5px;
-    background: var(--background_gradient_1);
-    background: var(--background_gradient_1a);
-    /*border-radius: 0 0 var(--halfPad) var(--halfPad);*/
 }
 
 .cart_item {
@@ -134,7 +121,7 @@
 .cart_counter {
     position: relative;
     background: blueviolet;
-    color: white;
+    color: var(--light);
     align-self: center;
     /*padding-left: 0 !important;*/
     /*padding: var(--fullPad) !important;*/
@@ -147,7 +134,7 @@
 
     text-align: center;
     background: blueviolet;
-    color: white;
+    color: var(--light);
     padding: calc(var(--halfPad)/2) var(--halfPad);
     border-radius: 5px;
     font-weight: normal;

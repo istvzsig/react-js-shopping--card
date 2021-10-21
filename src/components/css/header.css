@@ -1,9 +1,16 @@
 header {
     position: fixed;
-    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid: auto / auto 1fr 1fr;
+    background: var(--dark);
     top: 0 !important;
     z-index: 200000;
     width: 100%;
+    color: var(--light);
+    transition: 300ms background
 }
 
 .top_menu {

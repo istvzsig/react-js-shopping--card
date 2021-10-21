@@ -8,11 +8,11 @@ export default function Main(props) {
 
     return (
         <>
-        <h2 className="products_tile_big">Products</h2>
+        
         
         <main className="product_collection">
             
-            
+        <h2 className="products_tile_big">Products</h2>  
 
             <div className="products_list">
 

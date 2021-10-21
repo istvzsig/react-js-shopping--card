@@ -5,9 +5,9 @@ import { toggleCart, positioning } from './functions';
 export default function Header(props) {
     const { cartItems } = props;
     let item_counter = cartItems.reduce( (a, item) => a + item.qty, 0)
-
+    
     return (
-        <header className="top_menu">
+        <header id="top_menu_bar" className="top_menu">
 
             <h1 className="logo">small shop</h1>
 

@@ -10,6 +10,10 @@
     animation: 'show' 300ms forwards;
 }
 
+.transparent {
+    animation: transparent 1000ms forwards ease-out;
+}
+
 @keyframes fluffy {
     0%  { transform: translate3d(0,0,0); }
 
@@ -20,6 +24,12 @@
     66%  { transform: translate3d(0,3px,0); }
 
     100%  { transform: translate3d(0,0,0);  }
+}
+
+@keyframes show {
+    0%  { transform: translate3d(0,0,0); }
+
+    100%  { transform: translate3d(0,-100vh,0); }
 }
 
 @keyframes show {
