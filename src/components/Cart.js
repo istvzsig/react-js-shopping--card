@@ -62,7 +62,7 @@ export default function Cart(props) {
 
                     <div className="summarize summarize_total">
                         <div className="summarize_label">TOTAL PRICE</div>
-                        <div className="price_tag_total">${totalPrice.toFixed(2)}</div>
+                        <div className="price_tag_total">${totalPrice.toFixed(2)}<sup className="currency">USD</sup></div>
                     </div>
 
                     <button className="check_out_button">CHECK OUT</button>

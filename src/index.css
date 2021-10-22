@@ -6,7 +6,7 @@
 @import './components/css/event_classes.css';
 
 :root {
-    --dark: #222;
+    --dark: #111;
     --light: #fff;
     --borderLight: .5px solid var(--dark);
     --halfPad: .5rem;

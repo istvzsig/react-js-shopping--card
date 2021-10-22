@@ -56,8 +56,8 @@
     padding: calc(var(--halfPad) / 2) var(--halfPad);
     font-weight: bold;
     background: none;
-    border: 2px solid blueviolet;
-    color: blueviolet;
+    border: 2px solid gold;
+    color: gold;
     width: 30px;
     height: 30px;
     margin: 0 var(--halfPad);
@@ -91,18 +91,28 @@
 
 .summarize_total {
     font-weight: bold;
+    
 
 }
 
 .price_tag_total {
     text-align: left;
-    font-size: clamp(1rem, 10vw, 2rem); 
+    font-size: 6vh;
+    color: gold !important;
     padding: var(--halfPad) 0;
+}
+
+.price_tag_total .currency {
+    color: var(--light);
+    font-size: 10px;
+    position: relative;
+    opacity: .2;
 }
 
 .summarize_label {
     font-size: 12px;
     text-align: left;
+    opacity: .1;
 }
 
 .cart_navigation {
@@ -120,7 +130,7 @@
 
 .cart_counter {
     position: relative;
-    background: blueviolet;
+    background: gold;
     color: var(--light);
     align-self: center;
     /*padding-left: 0 !important;*/
@@ -133,8 +143,8 @@
     --fullPad: calc(-1rem + calc(1rem/2));
 
     text-align: center;
-    background: blueviolet;
-    color: var(--light);
+    background: gold;
+    color: var(--dark);
     padding: calc(var(--halfPad)/2) var(--halfPad);
     border-radius: 5px;
     font-weight: normal;
@@ -144,4 +154,17 @@
 
 .cart_button {
     margin-right: 1rem;
+}
+
+.check_out_button {
+    padding: var(--fullPad);
+    background: var(--dark);
+    background: var(--light);
+    margin: var(--halfPad);
+    font-weight: bold;
+    border-radius: 10px;
+    color: var(--dark) !important;
+    font-size: 3vh;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,.25), */
+                /* 0 5px 10px rgba(0,0,0,.25); */
 }

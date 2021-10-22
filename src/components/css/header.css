@@ -19,7 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
     display: grid;
-    grid: auto / auto 1fr auto;
+    grid: auto / auto auto;
     font-weight: bold;
     height: 60px;
     /*padding: calc(var(--halfPad) / 2) 0;*/
@@ -28,6 +28,7 @@ header {
 
 .top_menu .logo {
     margin-left: var(--fullPad);
+    /* color: gold; */
 }
 
 .top_menu div ul {
@@ -45,4 +46,5 @@ header {
     justify-self: flex-end;
     margin-right: calc(var(--fullPad) * 2);
     cursor: pointer;
+    display: none;
 }

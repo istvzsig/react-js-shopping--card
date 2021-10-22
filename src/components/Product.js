@@ -23,7 +23,7 @@ export default function Product(props) {
                 alt={product.image.alt}>
             </img>
 
-            <h4 className="product_title">{product.name.substring(0,15)}</h4>
+            <h4 className="product_title">{product.name.substring(0,24)}</h4>
             <h5 className="product_category">{product.category}</h5>
             <h3 className="product_price">${product.price}<sup className="currency">USD</sup></h3>
             <button onClick={()=> onAdd(product)} className="add_to_cart_button hidden">ADD TO CART</button>
